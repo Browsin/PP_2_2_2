@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 @Component
 public class CarDaoImpl implements CarDao {
-    private List<Car> cars;
+    private final List<Car> cars;
 
     public CarDaoImpl() {
         cars = new ArrayList<>();
